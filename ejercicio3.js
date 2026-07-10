@@ -25,8 +25,8 @@ if (aprobacion === true) {
     resultadoFinal = "no aprobado"
 }
 
-const estudainte1 = new estudiante("samuel", 1022, resultadoFinal );
-const estudainte1 = new estudiante("santiago", 1033, resultadoFinal );
-const estudainte1 = new estudiante("samuel", 1022, resultadoFinal );
+const estudiante1 = new estudiante("samuel", 1022, resultadoFinal );
+const estudiante2 = new estudiante("santiago", 1033, resultadoFinal );
+const estudiante3 = new estudiante("samuel", 1022, resultadoFinal );
 
-console.log(estudainte1.mostrarResultado())
+console.log(estudiante1.mostrarResultado())
